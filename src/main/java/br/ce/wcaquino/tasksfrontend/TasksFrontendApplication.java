@@ -11,7 +11,7 @@ public class TasksFrontendApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(TasksFrontendApplication.class, args);
 	}
-
+//comentando
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(TasksFrontendApplication.class);
